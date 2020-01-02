@@ -1,0 +1,118 @@
+body
+{
+	background-color: rgb(245, 245, 245);
+	margin-top: 0%;
+}
+
+#top
+{
+	background-color: black;
+	margin: auto;
+	padding-top: 0%;
+}
+
+#top h1
+{
+	display: inline-block;
+}
+
+#panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+	
+	background-image: url("images/panier.jpg")
+}
+
+#panier:hover
+{
+		background-image: url("images/panier_r.jpg")
+}
+
+
+H1 a
+{
+	color:white; 
+	padding:1%; 
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+ 	text-decoration: underline; 
+ 	color: red; 
+}
+
+nav H1
+{
+	font-size:300%;
+	text-transform:uppercase;
+	text-decoration:underline;
+	text-align:center;
+	position:relative;
+}
+
+nav li
+{
+	display: inline;
+	position: relative;
+	left: 11%;
+	border-top: 0mm solid black;
+	border-left: 1mm solid black;
+	border-right: 1mm solid black;
+	border-bottom: 0mm solid black;
+	border-radius: 10px 10px 10px 10px;
+	padding: 1%;
+	margin: 1%;
+	text-decoration: none;
+}
+
+#all
+{
+	border-top: 1mm solid black;
+	padding: 1%;
+}
+
+#left
+{
+	float:left;
+	display:inline-block;
+	position:relative;
+	max-width: 20%;
+    margin-left: 25%;
+}
+
+#left H1
+{
+	font-size:200%;
+}
+
+#right
+{
+	float:left;
+	display:inline-block;
+	position:relative;
+	max-width: 50%;
+    margin-left: 15%;
+}
+
+#right H1
+{
+	font-size:200%;
+}
+
+#gm img.GoogleMaps
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+	border-style: solid black;
+}

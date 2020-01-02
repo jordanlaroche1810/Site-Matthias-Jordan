@@ -1,0 +1,188 @@
+body
+{
+	background-color: rgb(245, 245, 245);
+	margin-top: 0%;
+}
+
+ #top
+{
+	background-color: black;
+	margin: auto;
+	padding-top: 0%;
+}
+
+#top h1
+{
+	display: inline-block;
+}
+
+#top img.panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+}
+
+#panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+	
+	background-image: url("images/panier.jpg")
+}
+
+#panier:hover
+{
+		background-image: url("images/panier_r.jpg")
+}
+
+H1 a
+{
+	color:white; 
+	padding:1%; 
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+ 	text-decoration: underline; 
+ 	color: red; 
+}
+
+nav li
+{
+	display: inline;
+	position: relative;
+	border-top: 0mm solid black;
+	border-left: 1mm solid black;
+	border-right: 1mm solid black;
+	border-bottom: 0mm solid black;
+	border-radius: 10px 10px 10px 10px;
+	padding: 1%;
+	margin: 1%;
+	text-decoration: none;
+	left: 20%;
+}
+
+article
+{
+	margin: auto;
+}
+
+#marque
+{
+	border-top: 1mm solid black;
+	display: flex;
+	padding: 1%;
+}
+
+#marque h1
+{
+	border: 1mm solid black;
+	margin-left: 47%;
+}
+
+
+#crp
+{
+	display: flex;
+	padding: 1%;
+}
+
+#n1 
+{
+	max-width: 20%;
+	display: inline-block;
+	position: relative;
+	padding: 2%;
+	left: 5%;
+	background-color: white;
+}
+
+#n2 
+{
+	max-width: 20%;
+	display: inline-block;
+	position: relative;
+	padding: 2%;
+	left: 5%;
+	background-color: white;
+}
+
+#n3 
+{
+	max-width: 20%;
+	display: inline-block;
+	position: relative;
+	padding: 2%;
+	left: 5%;
+	background-color: white;
+}
+
+article img.shoes
+{
+	max-width: 80%;
+}
+
+#n1:hover
+{
+	border: 1mm solid grey;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#n2:hover
+{
+	border: 1mm solid grey;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#n3:hover
+{
+	border: 1mm solid grey;
+	border-radius: 10px 10px 10px 10px;
+}
+
+figure h3
+{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	color: red;
+}
+
+figure h4
+{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	text-decoration: line-through;
+}
+
+footer
+{
+	border-top: 1mm solid black;
+}
+
+footer a
+{
+    font-size: 125%;
+}
+
+footer p
+{
+    color: grey;
+}
+
+footer img
+{
+    display: flex;
+    float: right;
+}

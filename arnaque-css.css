@@ -1,0 +1,64 @@
+body
+{
+	background-color: rgb(245, 245, 245);
+	margin-top: 0%;
+}
+
+ #top
+{
+	background-color: black;
+	margin: auto;
+	padding-top: 0%;
+}
+
+#top h1
+{
+	display: inline-block;
+}
+
+#top img.panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+}
+
+#panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+	
+	background-image: url("images/panier.jpg")
+}
+
+#panier:hover
+{
+		background-image: url("images/panier_r.jpg")
+}
+
+H1 a
+{
+	color:white; 
+	padding:1%; 
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+ 	text-decoration: underline; 
+ 	color: red; 
+}
+
+article
+{
+	text-align: center;
+	margin-top: 20%;
+}

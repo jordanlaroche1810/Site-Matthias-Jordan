@@ -1,0 +1,155 @@
+body
+{
+	background-color: rgb(245, 245, 245);
+	margin-top: 0%;
+}
+
+ #top
+{
+	background-color: black;
+	margin: auto;
+	padding-top: 0%;
+}
+
+#top h1
+{
+	display: inline-block;
+}
+
+#top img.panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+}
+
+#panier
+{
+	max-width: 2%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+	
+	background-image: url("images/panier.jpg")
+}
+
+#panier:hover
+{
+		background-image: url("images/panier_r.jpg")
+}
+
+H1 a
+{
+	color:white; 
+	padding:1%; 
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+ 	text-decoration: underline; 
+ 	color: red; 
+}
+
+nav li
+{
+	display: inline;
+	position: relative;
+	border-top: 0mm solid black;
+	border-left: 1mm solid black;
+	border-right: 1mm solid black;
+	border-bottom: 0mm solid black;
+	border-radius: 10px 10px 10px 10px;
+	padding: 1%;
+	margin: 1%;
+	text-decoration: none;
+	left: 20%;
+}
+
+#all
+{
+	border-top: 1mm solid black;
+	border-bottom: 1mm solid black;
+}
+
+#nom
+{
+	text-align: center;
+	padding: 2%;
+}
+
+#prenom
+{
+	text-align: center;
+	padding: 2%;
+}
+
+#adresse
+{
+	text-align: center;
+	padding: 2%;
+}
+
+#carte
+{
+	text-align: center;
+	padding: 2%;
+}
+
+#comm
+{
+	text-align: center;
+	padding: 2%;
+
+}
+
+#comm button
+{
+	border: 1;
+	border-color: black;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 120%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#comm button:hover
+{
+	border: 1;
+	border-color: red;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 120%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer
+{
+	border-top: 1mm solid black;
+}
+
+footer a
+{
+    font-size: 125%;
+}
+
+footer p
+{
+    color: grey;
+}
+
+footer img
+{
+    display: flex;
+    float: right;
+}
